@@ -49,5 +49,7 @@ var app = {
 };
 
 function teste(){
-    document.getElementById("btn1").style.background = 'white';
+    if(document.getElementById("usuario").value == '' || document.getElementById("senha") == ''){
+        document.getElementById("btn1").style.background = 'white';
+    }
 }
