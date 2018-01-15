@@ -52,6 +52,6 @@ function teste(){
     if (document.getElementById("usuario").value == "" || document.getElementById("senha").value == "") {
         alert("Preencha usuário e senha corretamente!");
     }else{
-        alert("yes");
+        document.autentic.submit();
     }
 }
